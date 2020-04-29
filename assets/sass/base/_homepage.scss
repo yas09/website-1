@@ -1,0 +1,41 @@
+/* All homepage sections */
+
+.about {
+    background-color: $color-2;
+    color: white;
+    h5, p {
+        color:white !important;
+    }
+    i {
+        color: white;
+        font-size: 14px;
+        padding-right: 8px;
+        vertical-align: middle;
+    }
+} 
+
+.service {
+    padding-bottom: 10rem;
+    background-size: cover; 
+    background-image: linear-gradient(to right bottom, 
+    rgba(48, 74, 121, 0.4), 
+    rgba(71, 74, 82, 0.4)),
+     url(../img/compwork1.jpg);
+}
+
+
+.service p,h5 {
+    color:#ccc;
+    padding-top: 1.5rem;
+}
+
+.service .container .row h5 {
+    color:white;
+}
+
+.thumb {
+    margin:1rem;
+    &:hover{
+        opacity:0.4;
+    }
+}

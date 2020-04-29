@@ -1,0 +1,130 @@
+/* Font style and etc */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $font-family-2;
+    font-weight: 300;
+    color: #333;
+    
+}
+
+.header h1 {
+    font-size: 60px;
+    font-family: $font-family-2;
+    color:white;
+    animation: leftIn 0.80s ease-out;
+    transition-delay: 2s;
+    transition: 0.8s;
+}
+
+.header h3 {
+    color:white;
+    animation: rightIn 0.80s ease-out;
+    transition-delay: 2s;
+    transition: 0.7s;
+
+}
+
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+    text-align: justify;
+}
+
+.centered {
+    text-align: center !important;
+}
+
+a {
+    color: white;
+    word-wrap: break-word;
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+    &:hover, &:focus {
+        color: gray;
+        text-decoration: none;
+        outline: 0;
+    }
+    &:before,&:after {
+        -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+        -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+        -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+        -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+        transition: color 0.1s ease-in, background 0.1s ease-in;
+    }
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    
+}
+
+/* Global Values */
+
+.desc {
+	padding-top: 50px;
+}
+
+.desc p {
+	color: #2f2f2f;
+}
+
+.desc t {
+	color: #34495e;
+	font-weight: 700;
+}
+
+.desc imp {
+	padding: 6px;
+	color: white;
+	background: #34495e;
+}
+
+.desc more {
+	color: #95a5a6;
+}
+
+.icon {
+    font-size:22px !important;
+    &:hover {
+        color:black !important;
+        transition-delay: 1s;
+        transition: 0.5s;
+        transform:scale(1.2);
+    }
+}
+
+.icon-bg {
+    font-size: 30px !important;
+    &:hover {
+        color:black !important;
+        transition-delay: 1s;
+        transition: 0.5s;
+        transform:scale(1.2);
+    }
+}
+
+.social-btns {
+    transition-delay: 3s;
+    transition: 0.5s;
+    animation: bottomIn 0.9s ease-out;
+}
+
+.intro{
+    filter: drop-shadow(2px 4px 6px black);
+
+}

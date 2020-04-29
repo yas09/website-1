@@ -1,0 +1,46 @@
+/* Button component */
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.btn {
+    flex: 1 1 auto;
+    margin: 10px;
+    padding: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: $font-weight-2;
+    background-size: 200% auto;
+    background-color: white 0.1;
+    border: 2px solid white;
+    color: black;
+    border-radius: 50rem;
+    margin-top: 2rem;
+    transition-delay: 1s;
+    transition: 0.5s;
+    animation: bottomIn 0.90s ease-out;
+
+    &:link,
+    &:visited {
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 1.5rem 4rem;
+        display: inline-block;
+        color: white;
+    }
+    &:hover,&:active {
+       
+        background-position: right center; 
+        border:2px solid white;
+        background-color: white;
+        color: black;      
+    }
+
+ }
